@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains multiple lines.
+C# async/await can read it without blocking the main thread.
+End of file.

@@ -1,4 +1,4 @@
-﻿// C# Collections - 3.1 Collections
+﻿// C# Collections and LINQ - 3.1 Collections
 
 using System;
 using System.Collections.Generic;
