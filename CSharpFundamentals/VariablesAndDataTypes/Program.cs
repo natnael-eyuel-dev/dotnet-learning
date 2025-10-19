@@ -1,4 +1,4 @@
-﻿// C# Fundamentals - Variables and Data Types Example
+﻿// C# Fundamentals - 1.1 Variables and Data Types Example
 
 using System;
 
@@ -27,3 +27,8 @@ namespace CSharpFundamentals.VariablesAndDataTypes
         }
     }
 }
+
+/* Expected Output when running 'dotnet run'
+
+Name: John Doe, Age: 26
+*/
