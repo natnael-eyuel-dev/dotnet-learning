@@ -70,6 +70,7 @@ namespace CSharpFundamentals.ControlStructures
 }
 
 /* Expected Output when running 'dotnet run'
+
 Grade: B
 Beginning of the week
 Iteration: 0
