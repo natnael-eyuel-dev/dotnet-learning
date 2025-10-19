@@ -1,4 +1,5 @@
 ﻿// C# Advanced - 4.2 Exception Handling
+
 using System;
 
 namespace AdvancedCSharp.ExceptionHandling
