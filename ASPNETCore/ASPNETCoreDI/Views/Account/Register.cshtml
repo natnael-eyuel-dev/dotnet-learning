@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+@if(ViewData["Error"] != null)
+{
+    <p style="color:red">@ViewData["Error"]</p>
+}
+
+<form method="post" asp-controller="Account" asp-action="Register">
+    <label>Email:</label>
+    <input type="email" name="email" required />
+    <button type="submit">Register</button>
+</form>
