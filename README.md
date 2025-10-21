@@ -27,6 +27,10 @@ This repository contains my personal notes and projects while learning **C# and 
    - 4.2 [Exception Handling](./AdvancedCSharp/ExceptionHandling/) 
    - 4.3 [Generics](./AdvancedCSharp/Generics/)
 
+5. [ASP.NET Core](./ASPNETCore/)
+   - 5.1 [ASP.NET Core Basics](./ASPNETCore/NewWebAPP/)
+   - 5.2 [Dependency Injection](./ASPNETCore/ASPNETCoreDI/)
+
 ---
 
 ## C# Fundamentals
@@ -227,12 +231,52 @@ int maxInt = FindMax(10, 20);
 
 ---
 
+## ASP.NET Core
+
+### 5.1 ASP.NET Core Basics
+
+* Created a **MVC web application** using the .NET CLI.
+* Learned the **project structure**:
+  - `Program.cs` – entry point
+  - `Controllers/` – handle HTTP requests
+  - `Views/` – Razor HTML templates
+  - `Models/` – data classes
+  - `wwwroot/` – static files
+* Implemented **HomeController** with actions:
+  - `Index` – displays home page
+  - `Greeting` – displays a personalized greeting
+  - `Submit` – handles form submission
+* Created Razor views for **Index** and **Greeting** pages
+* Learned **request handling, routing, and rendering views**
+
+---
+
+### 5.2 Dependency Injection (DI)
+
+* Learned **dependency injection** for loose coupling and testability
+* Created `IEmailService` interface and `EmailService` implementation
+* Registered services in `Program.cs` using `AddScoped`
+* Injected services into controllers via **constructor injection**
+* Built a working **email simulation example** with service lifetimes:
+  - **Singleton** – created once for app lifetime
+* Ran the project and tested dependency injection with form submissions
+
+---
+
 ## Summary of Skills Learned
 
 * Core C# syntax: variables, data types, control structures, methods
 * Object-Oriented Programming: classes, objects, encapsulation, inheritance, polymorphism, abstraction
 * Collections and LINQ for data manipulation
 * Advanced concepts: async/await, exception handling, generics
+* ASP.NET Core Web Development:
+  - MVC architecture: Models, Views, Controllers
+  - Routing, request handling, and Razor views
+  - Dependency Injection:
+      - Implemented `IEmailService` as a **Scoped** service (once per HTTP request)
+      - Learned the concepts of **Transient**, **Scoped**, and **Singleton** service lifetimes
+  - Building simple web applications with form handling and service integration
+
 
 This repository serves as a comprehensive record of my **progress learning C# and .NET**, with practical examples for each concept.
 
